@@ -1,0 +1,57 @@
+{
+  "pet_id": "dafeiyu",
+  "display_name": "大肥鱼 · 蓝色鲸鱼娘",
+  "sprite_version_number": 2,
+  "style_preset": "2d-anime-chibi",
+  "atlas": {
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "width": 1536,
+    "height": 2288
+  },
+  "standard_frames": {
+    "idle": 6,
+    "running-right": 8,
+    "running-left": 8,
+    "waving": 4,
+    "jumping": 5,
+    "failed": 8,
+    "waiting": 6,
+    "running": 6,
+    "review": 6
+  },
+  "look_directions": [
+    "000",
+    "022.5",
+    "045",
+    "067.5",
+    "090",
+    "112.5",
+    "135",
+    "157.5",
+    "180",
+    "202.5",
+    "225",
+    "247.5",
+    "270",
+    "292.5",
+    "315",
+    "337.5"
+  ],
+  "postprocessing": {
+    "method": "connected alpha components; shared row scale; shoe anchor registration",
+    "transparent_background": true
+  },
+  "qa": {
+    "atlas_validation": "require-v2",
+    "direction_semantics": "16 labeled directions and clockwise loop; agent visual review",
+    "runtime_display_verified": false
+  },
+  "identity_note": "约2.5头身；蓝色渐变长发、蓝瞳、鲸鳍与鲸尾；深蓝白长袖女仆裙、白围裙、头箍、蓝色蝴蝶结与胸针。",
+  "neutral_look_frame": {
+    "row": 0,
+    "column": 6
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "tool": "OpenAI built-in image_gen",
+  "jobs": [
+    {
+      "source": "source/references/canonical-base.png",
+      "sourceSha256": "5180117ff905aee3d5f7d1477727fdf12bdcf148e8ef5b1edab378819649134d",
+      "prompt": "source/prompts/base.md",
+      "references": [
+        "source/references/community-six-views.png"
+      ]
+    },
+    {
+      "source": "source/references/idle.png",
+      "sourceSha256": "1a2c300da49dbbd14a1fb4ea74434fb0a4933a031c71a5b385232200f0067edf",
+      "prompt": "source/prompts/idle.md",
+      "references": [
+        "source/references/canonical-base.png"
+      ]
+    },
+    {
+      "source": "source/references/running-right.png",
+      "sourceSha256": "5265750e947b6e1d0100407710dbcc44ec1198ac6aa8b7936fba3c17ed0e233f",
+      "prompt": "source/prompts/running-right.md",
+      "references": [
+        "source/references/canonical-base.png"
+      ]
+    },
+    {
+      "source": "source/references/running-left.png",
+      "sourceSha256": "d19bd40650b24a55d319f0991f820e4a53d492d7365094adbd1ce03d9f339c00",
+      "prompt": "source/prompts/running-left.md",
+      "references": [
+        "source/references/canonical-base.png"
+      ]
+    },
+    {
+      "source": "source/references/waving.png",
+      "sourceSha256": "9fb7b65a8031eebe8a455c6572402d5ffc276b4201f5e7b170b7f26ec01629fa",
+      "prompt": "source/prompts/waving.md",
+      "references": [
+        "source/references/canonical-base.png"
+      ]
+    },
+    {
+      "source": "source/references/failed.png",
+      "sourceSha256": "1618092365be662f55eeb8bc8c04f1cfc9271634252b384c37e72952750fa5fc",
+      "prompt": "source/prompts/failed.md",
+      "references": [
+        "source/references/canonical-base.png"
+      ]
+    },
+    {
+      "source": "source/references/waiting.png",
+      "sourceSha256": "8719264dce35e42e6b74b69f84032f4f0631fd68a79949365726b045996eb7a9",
+      "prompt": "source/prompts/waiting.md",
+      "references": [
+        "source/references/canonical-base.png"
+      ]
+    },
+    {
+      "source": "source/references/running.png",
+      "sourceSha256": "06d21ae6da0c3079a928fd564ec83efa5c409975d0989d09677bf32d6090f86c",
+      "prompt": "source/prompts/running.md",
+      "references": [
+        "source/references/canonical-base.png"
+      ]
+    },
+    {
+      "source": "source/references/review.png",
+      "sourceSha256": "312b2f09bbc566d8ebd36ddf867918e3f84bd5530f0dfb789937a2f2cf10c039",
+      "prompt": "source/prompts/review.md",
+      "references": [
+        "source/references/canonical-base.png"
+      ]
+    },
+    {
+      "source": "source/references/jumping-revised.png",
+      "sourceSha256": "ba921d992769e433313a0e0d31ce6d32b5821bd53414c78666a9caf0a6471f03",
+      "prompt": "source/prompts/jumping-revised.md",
+      "references": [
+        "source/references/canonical-base.png"
+      ]
+    },
+    {
+      "source": "source/references/look-row-9-revised.png",
+      "sourceSha256": "e4587caf703e6742e0524159edeb181a0040378be1539b3e7c9949b12cb119fc",
+      "prompt": "source/prompts/look-row-9-revised.md",
+      "references": [
+        "source/references/canonical-base.png"
+      ]
+    },
+    {
+      "source": "source/references/look-row-10-revised.png",
+      "sourceSha256": "bbb6f3ad1219c918e093f8e4c1e5dc523bdf6ef193bc38d8b639d41300d1db51",
+      "prompt": "source/prompts/look-row-10-revised.md",
+      "references": [
+        "source/references/canonical-base.png"
+      ]
+    },
+    {
+      "source": "source/references/look-row-9-upward-fix.png",
+      "sourceSha256": "347b403df86e2d757f09489b60b28a8ac31e7df567c4042e05553aedb8b355f4",
+      "prompt": "source/prompts/look-row-9-upward-fix.md",
+      "references": [
+        "source/references/look-row-9-revised.png"
+      ]
+    }
+  ]
+}

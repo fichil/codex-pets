@@ -1,75 +1,51 @@
-# 小澄·薄荷助手
+# Codex Pets · 桌宠合集
 
-一个适用于 Codex Pets 的 V2 动画桌宠。新版采用柔和 3D 手办风格：银蓝短发、青绿色眼睛、奶油白与薄荷连帽裙，搭配固定在角色左耳的单侧耳麦。小澄平时安静陪伴，通过眼神、小表情和轻柔动作回应任务状态。
+为 Codex 桌面端制作的 V2 动画宠物。每只宠物独立安装、预览与维护：选择你喜欢的伙伴，让它陪你工作。
 
-![小澄 3D 手办版动画联系表](assets/contact-sheet-extended.png)
+| 小澄 · 薄荷助手 | 大肥鱼 · 蓝色鲸鱼娘 |
+| --- | --- |
+| ![小澄待机](pets/xiaocheng/previews/idle.gif) | ![大肥鱼待机](pets/dafeiyu/previews/idle.gif) |
+| 柔和 3D 手办，安静温柔的薄荷助手 | 二次元 Q 版，聪明贪吃的蓝色鲸鱼娘 |
+| `xiaocheng` · [详情与预览](pets/xiaocheng/README.md) | `dafeiyu` · [详情与预览](pets/dafeiyu/README.md) |
+| 美术 CC BY 4.0 | 美术 CC BY-NC-SA 4.0，保留上游许可 |
+| [下载小澄 ZIP](https://github.com/fichil/codex-pets/releases/download/v2.0.0/xiaocheng-v2.0.0.zip) | [下载大肥鱼 ZIP](https://github.com/fichil/codex-pets/releases/download/v2.0.0/dafeiyu-v2.0.0.zip) |
+| 安装参数：`-PetId xiaocheng`（默认） | 安装参数：`-PetId dafeiyu` |
 
-## 新版变化
-
-- 约三头身的哑光手办质感，柔和体积光与简洁的发束、衣褶，便于在小尺寸下识别。
-- 九种标准动作全部重新生成；等待输入采用摊手邀请，工作中轻触耳麦思考，审查时双手背后并观察结果。
-- 左右移动分别制作，保持角色左耳耳麦的近侧显示和远侧遮挡。
-- 16 个观察方向通过眼球、眼睑和头颈配合表达，脚底和下身保持稳定。
-- 使用整行动作共享尺度抽帧，保留跳跃高度，避免蹲下或低头时被单独放大。
-
-## 快速安装
-
-```powershell
-git clone https://github.com/fichil/xiaocheng-codex-pet.git
-Set-Location .\xiaocheng-codex-pet
-powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1
-```
-
-安装完成后，在桌面端打开 **Settings → Pets**，点击 **Refresh**，选择“小澄·薄荷助手”。覆盖已有同名宠物时使用 `-Force`；覆盖前建议保存原来的 `pet.json` 和 `spritesheet.webp`。
+## 安装
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1 -Force
+git clone https://github.com/fichil/codex-pets.git
+Set-Location .\codex-pets
+powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1 -List
+powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1 -PetId dafeiyu
 ```
 
-自定义目录、手动安装和卸载方法见[安装与使用](docs/安装与使用.md)。
+不传 `-PetId` 仍安装小澄，兼容旧命令。覆盖同 ID 宠物加 `-Force`，安装前预览加 `-WhatIf`。脚本只写入所选宠物目录，不更改当前启用的桌宠。安装后在 Codex 的宠物选择界面刷新并手动选择。
 
-[Codex Pets 社区详情页](https://codex-pets.net/#/pets/xiaocheng)提供另一下载渠道。本仓库的 3D 升级不会自动更新社区站下载包；社区包可能仍是先前的二次元版本，以实际预览和文件为准。
+[独立安装包与 SHA256](https://github.com/fichil/codex-pets/releases/tag/v2.0.0) · [安装、手动安装与卸载](docs/安装与使用.md)
 
-## 动画预览
+## 项目组织
 
-| 待机 | 工作中 | 跳跃 |
-| --- | --- | --- |
-| ![待机](previews/idle.gif) | ![工作中](previews/running.gif) | ![跳跃](previews/jumping.gif) |
+`pets/<id>/` 各自包含 `pet/` 安装包、`assets/` 检查图、`previews/` 动画、`source/` 基准图/提示词/QA 和独立许可说明。`scripts/` 提供通用安装、卸载、校验、预览和打包工具。
 
-[完整十种动画预览](previews/README.md)与[浅深背景预览页面](previews/index.html)位于 `previews/`，观察方向检查图位于 `assets/look-directions.png`。
+两只宠物采用相同 V2 格式：透明 WebP 1536×2288，8列×11行，单格192×208；九种标准状态、额外中性姿态、十六个顺时针观察方向。制作流程及验收边界见[制作与验证](docs/制作与验证.md)。
 
-## V2 格式与状态
+## 维护与验证
 
-透明 WebP 图集为 `1536×2288`，8 列 × 11 行，单格 `192×208`；`spriteVersionNumber` 保持为 `2`。
+普通用户安装不需要 Python。维护工具需要 Python 3.12+：
 
-| 行（从 0 开始） | 状态 | 动画帧数 |
-| ---: | --- | ---: |
-| 0 | `idle` 安静待机 | 6 |
-| 1、2 | `running-right` / `running-left` 左右移动 | 各 8 |
-| 3 | `waving` 挥手 | 4 |
-| 4 | `jumping` 跳跃 | 5 |
-| 5 | `failed` 失败反应 | 8 |
-| 6 | `waiting` 等待输入 | 6 |
-| 7 | `running` 任务处理中 | 6 |
-| 8 | `review` 审查 | 6 |
-| 9、10 | 16 个顺时针观察方向 | 各 8 |
+```powershell
+python -m pip install -r requirements-dev.txt
+python scripts/validate.py
+powershell -ExecutionPolicy Bypass -File scripts/test-install.ps1
+python scripts/package.py --version v2.0.0
+python scripts/verify-release.py output/releases
+```
 
-第 0 行第 6 列另存中性姿态，不计入六帧待机循环；其他未使用单格完全透明。`000` 表示向上，`090` 向屏幕右，`180` 向下，`270` 向屏幕左。
+小澄素材原样迁移；大肥鱼使用内置 imagegen 重新制作，提示词与采用的原图均保留。生成过程不保证逐像素复现，打包和校验可重复执行。[贡献指南](CONTRIBUTING.md)
 
-## 制作资料与验证
+## 许可
 
-- `pet/`：可安装的清单与图集。
-- `assets/`、`previews/`：角色基准、联系表、方向检查图和动画预览。
-- `source/`：3D 角色配置、生成提示词、统一身份参考及脱敏 QA 记录。
-- `scripts/`、`docs/`：安装卸载脚本与中文说明。
+工程代码使用 [MIT](LICENSE)。小澄美术沿用 [CC BY 4.0](pets/xiaocheng/LICENSE)；大肥鱼美术使用 [CC BY-NC-SA 4.0](pets/dafeiyu/LICENSE)，含署名、非商业和相同方式共享要求。请按角色查阅 [NOTICE](NOTICE.md)，不要把代码许可理解为全部角色素材的许可。
 
-验证覆盖图集尺寸、透明度、使用格与中性姿态、动作语义、单侧耳麦、观察方向盲测和连续性；结果通过 SHA256 绑定当前图集。用户已于 2026-09-14 确认切换成功，确认来源与代理视觉验收分别记录。生成式素材不能保证再次运行得到逐像素相同结果。详见[制作与验证](docs/制作与验证.md)。
-
-## 开源许可
-
-- `scripts/` 和工程配置：[MIT License](LICENSE)。
-- 角色图、动画、宠物包、生成资料及中文文档：[CC BY 4.0](LICENSE-ASSETS)。
-
-转载或修改美术内容时，请保留署名“小澄·薄荷助手 by fichil”并链接本仓库，具体范围见 [NOTICE.md](NOTICE.md)。
-
-角色与动作由 OpenAI Codex 的图像生成能力辅助创作，确定性工具负责透明化、抽帧、合成与验证。本项目为社区作品，与 OpenAI、ChatGPT 或 Codex 官方无隶属、赞助或背书关系。
+这是社区项目，与 OpenAI、Codex、ChatGPT 或 DeepSeek 无隶属、赞助或背书关系。

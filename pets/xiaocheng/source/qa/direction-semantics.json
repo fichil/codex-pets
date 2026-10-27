@@ -194,7 +194,7 @@
       }
     ],
     "metricReview": {
-      "source": "qa/look-continuity.json",
+      "source": "source/qa/continuity-summary.json",
       "ok": true,
       "alphaHoles": [],
       "medianDiffPixels": 1226,
@@ -211,7 +211,7 @@
     "runtimePlaybackObserved": false
   },
   "blindReview": {
-    "source": "qa/direction-blind-validation.json",
+    "source": "source/qa/blind-validation.json",
     "inspected": true,
     "ok": true,
     "errors": [],

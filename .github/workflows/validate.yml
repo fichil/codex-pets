@@ -1,0 +1,22 @@
+name: Validate pets
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python scripts/validate.py
+      - name: Test Windows PowerShell installation and isolation
+        shell: powershell
+        run: ./scripts/test-install.ps1
+      - run: python scripts/package.py --version v2.0.0 --output output/ci-release
+      - run: python scripts/verify-release.py output/ci-release

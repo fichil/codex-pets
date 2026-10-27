@@ -1,0 +1,1035 @@
+{
+  "idle": {
+    "source": "source/references/idle.png",
+    "sourceSha256": "1a2c300da49dbbd14a1fb4ea74434fb0a4933a031c71a5b385232200f0067edf",
+    "sourceBoxes": [
+      [
+        28,
+        12,
+        451,
+        450
+      ],
+      [
+        459,
+        8,
+        903,
+        450
+      ],
+      [
+        921,
+        12,
+        1364,
+        450
+      ],
+      [
+        1365,
+        12,
+        1770,
+        450
+      ],
+      [
+        29,
+        454,
+        456,
+        885
+      ],
+      [
+        472,
+        454,
+        900,
+        885
+      ]
+    ],
+    "registration": {
+      "scale": 0.3991228070175439,
+      "bodyAnchorX": 92.00877192982456,
+      "feetBaseline": 201,
+      "positions": [
+        {
+          "x": 8,
+          "y": 25,
+          "jumpLift": 0
+        },
+        {
+          "x": 6,
+          "y": 24,
+          "jumpLift": 0
+        },
+        {
+          "x": 9,
+          "y": 25,
+          "jumpLift": 0
+        },
+        {
+          "x": 10,
+          "y": 25,
+          "jumpLift": 0
+        },
+        {
+          "x": 5,
+          "y": 28,
+          "jumpLift": 0
+        },
+        {
+          "x": 6,
+          "y": 28,
+          "jumpLift": 0
+        }
+      ]
+    }
+  },
+  "running-right": {
+    "source": "source/references/running-right.png",
+    "sourceSha256": "5265750e947b6e1d0100407710dbcc44ec1198ac6aa8b7936fba3c17ed0e233f",
+    "sourceBoxes": [
+      [
+        9,
+        36,
+        384,
+        505
+      ],
+      [
+        392,
+        33,
+        764,
+        507
+      ],
+      [
+        776,
+        33,
+        1152,
+        504
+      ],
+      [
+        1156,
+        35,
+        1531,
+        504
+      ],
+      [
+        9,
+        534,
+        398,
+        1002
+      ],
+      [
+        389,
+        532,
+        778,
+        1001
+      ],
+      [
+        778,
+        532,
+        1167,
+        997
+      ],
+      [
+        1166,
+        542,
+        1528,
+        1000
+      ]
+    ],
+    "registration": {
+      "scale": 0.39915966386554624,
+      "bodyAnchorX": 140.50630252100842,
+      "feetBaseline": 201,
+      "positions": [
+        {
+          "x": 12,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 28,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 23,
+          "y": 12,
+          "jumpLift": 0
+        },
+        {
+          "x": 22,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 23,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 20,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 16,
+          "y": 15,
+          "jumpLift": 0
+        },
+        {
+          "x": 20,
+          "y": 17,
+          "jumpLift": 0
+        }
+      ]
+    }
+  },
+  "running-left": {
+    "source": "source/references/running-left.png",
+    "sourceSha256": "d19bd40650b24a55d319f0991f820e4a53d492d7365094adbd1ce03d9f339c00",
+    "sourceBoxes": [
+      [
+        43,
+        29,
+        413,
+        501
+      ],
+      [
+        419,
+        27,
+        785,
+        500
+      ],
+      [
+        785,
+        26,
+        1149,
+        500
+      ],
+      [
+        1167,
+        26,
+        1528,
+        471
+      ],
+      [
+        41,
+        529,
+        405,
+        992
+      ],
+      [
+        421,
+        529,
+        786,
+        994
+      ],
+      [
+        799,
+        530,
+        1161,
+        995
+      ],
+      [
+        1185,
+        524,
+        1523,
+        953
+      ]
+    ],
+    "registration": {
+      "scale": 0.3684210526315789,
+      "bodyAnchorX": 82.0,
+      "feetBaseline": 201,
+      "positions": [
+        {
+          "x": 49,
+          "y": 26,
+          "jumpLift": 0
+        },
+        {
+          "x": 37,
+          "y": 26,
+          "jumpLift": 0
+        },
+        {
+          "x": 38,
+          "y": 26,
+          "jumpLift": 0
+        },
+        {
+          "x": 33,
+          "y": 36,
+          "jumpLift": 0
+        },
+        {
+          "x": 26,
+          "y": 30,
+          "jumpLift": 0
+        },
+        {
+          "x": 37,
+          "y": 29,
+          "jumpLift": 0
+        },
+        {
+          "x": 37,
+          "y": 29,
+          "jumpLift": 0
+        },
+        {
+          "x": 5,
+          "y": 42,
+          "jumpLift": 0
+        }
+      ]
+    }
+  },
+  "waving": {
+    "source": "source/references/waving.png",
+    "sourceSha256": "9fb7b65a8031eebe8a455c6572402d5ffc276b4201f5e7b170b7f26ec01629fa",
+    "sourceBoxes": [
+      [
+        18,
+        29,
+        482,
+        582
+      ],
+      [
+        461,
+        32,
+        907,
+        581
+      ],
+      [
+        902,
+        32,
+        1370,
+        582
+      ],
+      [
+        1347,
+        32,
+        1757,
+        582
+      ]
+    ],
+    "registration": {
+      "scale": 0.34234234234234234,
+      "bodyAnchorX": 88.46846846846847,
+      "feetBaseline": 201,
+      "positions": [
+        {
+          "x": 13,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 15,
+          "y": 12,
+          "jumpLift": 0
+        },
+        {
+          "x": 17,
+          "y": 12,
+          "jumpLift": 0
+        },
+        {
+          "x": 18,
+          "y": 12,
+          "jumpLift": 0
+        }
+      ]
+    }
+  },
+  "jumping": {
+    "source": "source/references/jumping-revised.png",
+    "sourceSha256": "ba921d992769e433313a0e0d31ce6d32b5821bd53414c78666a9caf0a6471f03",
+    "sourceBoxes": [
+      [
+        414,
+        141,
+        768,
+        494
+      ],
+      [
+        773,
+        72,
+        1139,
+        486
+      ],
+      [
+        1134,
+        47,
+        1517,
+        424
+      ],
+      [
+        403,
+        557,
+        768,
+        955
+      ],
+      [
+        776,
+        619,
+        1155,
+        988
+      ]
+    ],
+    "registration": {
+      "scale": 0.4014423076923077,
+      "bodyAnchorX": 87.97115384615384,
+      "feetBaseline": 201,
+      "positions": [
+        {
+          "x": 23,
+          "y": 58,
+          "jumpLift": 0
+        },
+        {
+          "x": 16,
+          "y": 31,
+          "jumpLift": 3
+        },
+        {
+          "x": 11,
+          "y": 21,
+          "jumpLift": 28
+        },
+        {
+          "x": 28,
+          "y": 20,
+          "jumpLift": 20
+        },
+        {
+          "x": 27,
+          "y": 45,
+          "jumpLift": 7
+        }
+      ]
+    }
+  },
+  "failed": {
+    "source": "source/references/failed.png",
+    "sourceSha256": "1618092365be662f55eeb8bc8c04f1cfc9271634252b384c37e72952750fa5fc",
+    "sourceBoxes": [
+      [
+        7,
+        13,
+        423,
+        497
+      ],
+      [
+        404,
+        34,
+        798,
+        497
+      ],
+      [
+        796,
+        42,
+        1170,
+        498
+      ],
+      [
+        1157,
+        15,
+        1529,
+        499
+      ],
+      [
+        18,
+        536,
+        402,
+        1008
+      ],
+      [
+        392,
+        510,
+        777,
+        1008
+      ],
+      [
+        775,
+        518,
+        1156,
+        1008
+      ],
+      [
+        1163,
+        516,
+        1524,
+        1009
+      ]
+    ],
+    "registration": {
+      "scale": 0.38,
+      "bodyAnchorX": 92.39,
+      "feetBaseline": 201,
+      "positions": [
+        {
+          "x": 21,
+          "y": 16,
+          "jumpLift": 0
+        },
+        {
+          "x": 17,
+          "y": 24,
+          "jumpLift": 0
+        },
+        {
+          "x": 17,
+          "y": 27,
+          "jumpLift": 0
+        },
+        {
+          "x": 20,
+          "y": 16,
+          "jumpLift": 0
+        },
+        {
+          "x": 12,
+          "y": 21,
+          "jumpLift": 0
+        },
+        {
+          "x": 21,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 20,
+          "y": 14,
+          "jumpLift": 0
+        },
+        {
+          "x": 22,
+          "y": 13,
+          "jumpLift": 0
+        }
+      ]
+    }
+  },
+  "waiting": {
+    "source": "source/references/waiting.png",
+    "sourceSha256": "8719264dce35e42e6b74b69f84032f4f0631fd68a79949365726b045996eb7a9",
+    "sourceBoxes": [
+      [
+        4,
+        21,
+        384,
+        504
+      ],
+      [
+        393,
+        22,
+        773,
+        503
+      ],
+      [
+        781,
+        26,
+        1154,
+        505
+      ],
+      [
+        1176,
+        39,
+        1531,
+        503
+      ],
+      [
+        13,
+        530,
+        384,
+        1004
+      ],
+      [
+        388,
+        522,
+        771,
+        1005
+      ]
+    ],
+    "registration": {
+      "scale": 0.3917525773195876,
+      "bodyAnchorX": 96.78350515463917,
+      "feetBaseline": 201,
+      "positions": [
+        {
+          "x": 22,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 20,
+          "y": 12,
+          "jumpLift": 0
+        },
+        {
+          "x": 22,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 19,
+          "y": 18,
+          "jumpLift": 0
+        },
+        {
+          "x": 25,
+          "y": 15,
+          "jumpLift": 0
+        },
+        {
+          "x": 21,
+          "y": 11,
+          "jumpLift": 0
+        }
+      ]
+    }
+  },
+  "running": {
+    "source": "source/references/running.png",
+    "sourceSha256": "06d21ae6da0c3079a928fd564ec83efa5c409975d0989d09677bf32d6090f86c",
+    "sourceBoxes": [
+      [
+        42,
+        7,
+        443,
+        441
+      ],
+      [
+        489,
+        7,
+        884,
+        441
+      ],
+      [
+        929,
+        10,
+        1329,
+        441
+      ],
+      [
+        1376,
+        28,
+        1766,
+        441
+      ],
+      [
+        43,
+        450,
+        444,
+        885
+      ],
+      [
+        488,
+        450,
+        886,
+        885
+      ]
+    ],
+    "registration": {
+      "scale": 0.43478260869565216,
+      "bodyAnchorX": 86.97826086956522,
+      "feetBaseline": 201,
+      "positions": [
+        {
+          "x": 8,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 10,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 8,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 10,
+          "y": 21,
+          "jumpLift": 0
+        },
+        {
+          "x": 8,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 9,
+          "y": 11,
+          "jumpLift": 0
+        }
+      ]
+    }
+  },
+  "review": {
+    "source": "source/references/review.png",
+    "sourceSha256": "312b2f09bbc566d8ebd36ddf867918e3f84bd5530f0dfb789937a2f2cf10c039",
+    "sourceBoxes": [
+      [
+        18,
+        29,
+        392,
+        508
+      ],
+      [
+        389,
+        53,
+        765,
+        508
+      ],
+      [
+        772,
+        35,
+        1137,
+        507
+      ],
+      [
+        1161,
+        28,
+        1523,
+        508
+      ],
+      [
+        12,
+        539,
+        386,
+        1010
+      ],
+      [
+        391,
+        532,
+        767,
+        1009
+      ]
+    ],
+    "registration": {
+      "scale": 0.3941908713692946,
+      "bodyAnchorX": 92.05809128630706,
+      "feetBaseline": 201,
+      "positions": [
+        {
+          "x": 23,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 23,
+          "y": 21,
+          "jumpLift": 0
+        },
+        {
+          "x": 24,
+          "y": 14,
+          "jumpLift": 0
+        },
+        {
+          "x": 25,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 20,
+          "y": 15,
+          "jumpLift": 0
+        },
+        {
+          "x": 20,
+          "y": 12,
+          "jumpLift": 0
+        }
+      ]
+    }
+  },
+  "look-row-9": {
+    "source": "source/references/look-row-9-upward-fix.png",
+    "sourceSha256": "347b403df86e2d757f09489b60b28a8ac31e7df567c4042e05553aedb8b355f4",
+    "sourceBoxes": [
+      [
+        20,
+        19,
+        392,
+        502
+      ],
+      [
+        404,
+        23,
+        774,
+        502
+      ],
+      [
+        789,
+        24,
+        1154,
+        502
+      ],
+      [
+        1164,
+        24,
+        1527,
+        502
+      ],
+      [
+        27,
+        523,
+        398,
+        1007
+      ],
+      [
+        409,
+        523,
+        775,
+        1007
+      ],
+      [
+        787,
+        527,
+        1153,
+        1007
+      ],
+      [
+        1163,
+        529,
+        1530,
+        1007
+      ]
+    ],
+    "registration": {
+      "scale": 0.39094650205761317,
+      "bodyAnchorX": 83.88065843621399,
+      "feetBaseline": 201,
+      "positions": [
+        {
+          "x": 19,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 19,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 19,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 16,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 19,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 20,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 18,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 17,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 15,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 21,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 19,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 21,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 20,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 24,
+          "y": 12,
+          "jumpLift": 0
+        },
+        {
+          "x": 21,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 21,
+          "y": 11,
+          "jumpLift": 0
+        }
+      ]
+    }
+  },
+  "look-row-10": {
+    "source": "source/references/look-row-10-revised.png",
+    "sourceSha256": "bbb6f3ad1219c918e093f8e4c1e5dc523bdf6ef193bc38d8b639d41300d1db51",
+    "sourceBoxes": [
+      [
+        12,
+        16,
+        419,
+        496
+      ],
+      [
+        400,
+        17,
+        796,
+        496
+      ],
+      [
+        778,
+        17,
+        1174,
+        496
+      ],
+      [
+        1167,
+        17,
+        1535,
+        496
+      ],
+      [
+        23,
+        526,
+        418,
+        1006
+      ],
+      [
+        411,
+        524,
+        790,
+        1006
+      ],
+      [
+        785,
+        527,
+        1176,
+        1006
+      ],
+      [
+        1168,
+        523,
+        1530,
+        1006
+      ]
+    ],
+    "registration": {
+      "scale": 0.39094650205761317,
+      "bodyAnchorX": 83.88065843621399,
+      "feetBaseline": 201,
+      "positions": [
+        {
+          "x": 19,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 19,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 19,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 16,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 19,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 20,
+          "y": 11,
+          "jumpLift": 0
+        },
+        {
+          "x": 18,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 17,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 15,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 21,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 19,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 21,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 20,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 24,
+          "y": 12,
+          "jumpLift": 0
+        },
+        {
+          "x": 21,
+          "y": 13,
+          "jumpLift": 0
+        },
+        {
+          "x": 21,
+          "y": 11,
+          "jumpLift": 0
+        }
+      ]
+    }
+  },
+  "neutralPose": {
+    "source": "idle frame 0",
+    "reason": "identical open-eye resting pose avoids a scale jump"
+  },
+  "spritesheetSha256": "8c72e39dceca37fbd38ccc8302e5196e75000596c700dcb2f809e7df51d3bdff",
+  "tool": "OpenAI built-in image_gen",
+  "postprocessing": "connected alpha support; shared scale per animation; shoe registration; no redraw or mirror"
+}
