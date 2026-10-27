@@ -1,0 +1,136 @@
+{
+  "ok": true,
+  "spritesheetSha256": "8c72e39dceca37fbd38ccc8302e5196e75000596c700dcb2f809e7df51d3bdff",
+  "spriteVersionNumber": 2,
+  "atlas": {
+    "format": "WEBP",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 2288,
+    "columns": 8,
+    "rows": 11,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "usedCells": 74,
+    "unusedCells": 14,
+    "neutralLookFrame": {
+      "row": 0,
+      "column": 6
+    }
+  },
+  "standardRows": {
+    "frameCounts": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6
+    ],
+    "previewTimingMs": {
+      "idle": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "running-right": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "running-left": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "waving": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "jumping": [
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "failed": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "waiting": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "running": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "review": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "look-directions": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ]
+    }
+  },
+  "lookDirections": {
+    "count": 16,
+    "order": "clockwise from up in nominal 22.5 degree steps",
+    "visualQa": "pass_with_warnings"
+  },
+  "runtimeDisplayVerified": false,
+  "browserPreviewVerified": true
+}

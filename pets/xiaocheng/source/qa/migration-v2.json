@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-27",
+  "baseCommit": "fc6d22c3a95ebf1bf4cba3f07e710e38c406618f",
+  "manifestBytesUnchanged": true,
+  "installationId": "xiaocheng",
+  "artworkBytesUnchanged": true,
+  "files": [
+    {
+      "originalPath": "assets/contact-sheet-extended.png",
+      "currentPath": "pets/xiaocheng/assets/contact-sheet-extended.png",
+      "sha256": "03f09ad452b138e76cc8b099e799f234bdf71464375abd4dece757ba6686b59f"
+    },
+    {
+      "originalPath": "assets/contact-sheet.png",
+      "currentPath": "pets/xiaocheng/assets/contact-sheet.png",
+      "sha256": "6ccb14e2719050c9a5616d40a17e173744b1238a03dc2c0a87a3de6d4f46c787"
+    },
+    {
+      "originalPath": "assets/look-directions.png",
+      "currentPath": "pets/xiaocheng/assets/look-directions.png",
+      "sha256": "6ebe9a7fb5541b4970cfd89a94a7c897980f6f01b576d6f3e34a404b8b85a769"
+    },
+    {
+      "originalPath": "assets/xiaocheng-base-transparent.png",
+      "currentPath": "pets/xiaocheng/assets/xiaocheng-base-transparent.png",
+      "sha256": "43eddd8216b0da7677e83bd114b420ffaa8910adea456a9d13a6d09b7b53396e"
+    },
+    {
+      "originalPath": "pet/spritesheet.webp",
+      "currentPath": "pets/xiaocheng/pet/spritesheet.webp",
+      "sha256": "bd2fdfd08223e2b3827648c7830801ddb497fb59f7b6d90b2382c9a400a37797"
+    },
+    {
+      "originalPath": "previews/failed.gif",
+      "currentPath": "pets/xiaocheng/previews/failed.gif",
+      "sha256": "3e8a9ea3259c8781558e7a2916a68fa6475f5db28ea8318c35a62fd33918af5d"
+    },
+    {
+      "originalPath": "previews/idle.gif",
+      "currentPath": "pets/xiaocheng/previews/idle.gif",
+      "sha256": "a2b43088f09c053457572618b8e93ac77c2c2b7d1e52a655f55d3a6f83f0fb5f"
+    },
+    {
+      "originalPath": "previews/jumping.gif",
+      "currentPath": "pets/xiaocheng/previews/jumping.gif",
+      "sha256": "7eb5b50443bbe0cd7daf92514e0cf998c4a106ed6b65c944d46ed5df16133d2b"
+    },
+    {
+      "originalPath": "previews/look-directions.gif",
+      "currentPath": "pets/xiaocheng/previews/look-directions.gif",
+      "sha256": "112723672d932f4abc8d02faec4f8ca409a4de56c0949d6f01f0dd31495b7410"
+    },
+    {
+      "originalPath": "previews/review.gif",
+      "currentPath": "pets/xiaocheng/previews/review.gif",
+      "sha256": "cd6e843819e3a6b21a7fd644c80388643a72d7d5b702d619e1dd61fff5020fd1"
+    },
+    {
+      "originalPath": "previews/running-left.gif",
+      "currentPath": "pets/xiaocheng/previews/running-left.gif",
+      "sha256": "752279f9c146d48ea79079bc4b657339236e7b994654a58fbbe847c12e092e51"
+    },
+    {
+      "originalPath": "previews/running-right.gif",
+      "currentPath": "pets/xiaocheng/previews/running-right.gif",
+      "sha256": "045aa74276dd7438ceb7a994a1df9d145b5abcc27a7933663d337bf6c36db6d0"
+    },
+    {
+      "originalPath": "previews/running.gif",
+      "currentPath": "pets/xiaocheng/previews/running.gif",
+      "sha256": "2c1fb51e22bc3c6b90a0b2e609795ca307ddcbb21af843eba834bc014178b5ce"
+    },
+    {
+      "originalPath": "previews/waiting.gif",
+      "currentPath": "pets/xiaocheng/previews/waiting.gif",
+      "sha256": "d3b06e44006d2b379575b27cb9784dfd16a9b93a0168715a00eb7705310b6909"
+    },
+    {
+      "originalPath": "previews/waving.gif",
+      "currentPath": "pets/xiaocheng/previews/waving.gif",
+      "sha256": "875679b2a2e0bd2265723c44bd23f3eabae4b6dcb29e773dee02a9204001bc99"
+    },
+    {
+      "originalPath": "source/references/canonical-base.png",
+      "currentPath": "pets/xiaocheng/source/references/canonical-base.png",
+      "sha256": "51429dfd0721025b65f8764d6e2e88c42208fbea92e27e4055d9c362598045f6"
+    },
+    {
+      "originalPath": "source/references/look-cardinals.png",
+      "currentPath": "pets/xiaocheng/source/references/look-cardinals.png",
+      "sha256": "e29f61e4fcc700dc8ac2173b9ba3689ed7915f0aa7d5a17eb1a8ed2b21918a9d"
+    },
+    {
+      "originalPath": "source/references/original-2d-design.png",
+      "currentPath": "pets/xiaocheng/source/references/original-2d-design.png",
+      "sha256": "da9bbde97a7692f0e960c297af8109ec9bfdaaf02dacdb91e02cbceeac4930d3"
+    }
+  ],
+  "runtimeDisplayRechecked": false
+}

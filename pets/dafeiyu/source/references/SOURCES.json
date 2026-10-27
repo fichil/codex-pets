@@ -1,0 +1,19 @@
+{
+  "retrievedOn": "2026-10-27",
+  "references": [
+    {
+      "file": "community-six-views.png",
+      "url": "https://github.com/xiaoweigen/deepseek-dafeiyu-assets/blob/main/images/base-six-views.png",
+      "sha256": "451fccc6f5ce644d65ba4d63981a94745bc38dff8a51679e33528f853942f259",
+      "role": "blue hair, face, fins and tail reference; maid outfit newly drawn",
+      "license": "CC BY-NC-SA-4.0 with retained upstream notices"
+    }
+  ],
+  "xSearch": {
+    "queries": [
+      "site:x.com DeepSeek 大肥鱼",
+      "site:x.com 大肥鱼 DeepSeek 女仆"
+    ],
+    "result": "No verifiable original X post found; no X images bundled or used as inputs."
+  }
+}

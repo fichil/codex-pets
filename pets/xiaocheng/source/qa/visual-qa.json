@@ -182,7 +182,7 @@
     "atlasBoundsChecked": true
   },
   "validation": {
-    "source": "final/validation-extended.json",
+    "source": "source/qa/qa-summary.json",
     "ok": true,
     "format": "WEBP",
     "mode": "RGBA",
@@ -199,12 +199,12 @@
   },
   "directionSemantics": {
     "ok": true,
-    "source": "qa/direction-semantics.json",
+    "source": "source/qa/direction-semantics.json",
     "continuity": "pass_with_warnings",
     "blindReportReviewed": true
   },
   "timingReview": {
-    "source": "qa/final-review/*.gif",
+    "source": "previews/*.gif",
     "allGifSizes": [
       192,
       208
@@ -213,6 +213,26 @@
     "findings": "Decoded GIF frame counts and per-frame durations were read. Contact sheets show their order/durations; look loop is16 frames at160ms each. Several preview animations intentionally hold the last frame longer. Runtime frame scheduling was not witnessed."
   },
   "reviewedSources": [
+    "pet/spritesheet.webp",
+    "pet/pet.json",
+    "previews/*.gif",
+    "assets/contact-sheet-extended.png",
+    "assets/look-directions.png",
+    "source/qa/qa-summary.json",
+    "source/qa/direction-semantics.json",
+    "source/qa/blind-validation.json",
+    "source/qa/continuity-summary.json"
+  ],
+  "scope": "Read-only independent visual assessment of final pixels and timing metadata. Only these two QA JSON reports were written; artwork was not modified.",
+  "spritesheetSha256": "BD2FDFD08223E2B3827648C7830801DDB497FB59F7B6D90B2382C9A400A37797",
+  "runtimeDisplayConfirmation": {
+    "status": "confirmed",
+    "source": "user",
+    "date": "2026-09-14",
+    "statement": "用户确认已成功切换到新版桌宠。"
+  },
+  "runtimeDisplayVerifiedMeaning": "Direct runtime observation by the agent; user confirmation is recorded separately.",
+  "historicalReviewedSources": [
     "qa/final-review/idle-light-dark.jpg",
     "qa/final-review/running-right-light-dark.jpg",
     "qa/final-review/running-left-light-dark.jpg",
@@ -231,13 +251,5 @@
     "final/spritesheet-extended.json",
     "final/spritesheet-extended.webp"
   ],
-  "scope": "Read-only independent visual assessment of final pixels and timing metadata. Only these two QA JSON reports were written; artwork was not modified.",
-  "spritesheetSha256": "BD2FDFD08223E2B3827648C7830801DDB497FB59F7B6D90B2382C9A400A37797",
-  "runtimeDisplayConfirmation": {
-    "status": "confirmed",
-    "source": "user",
-    "date": "2026-09-14",
-    "statement": "用户确认已成功切换到新版桌宠。"
-  },
-  "runtimeDisplayVerifiedMeaning": "Direct runtime observation by the agent; user confirmation is recorded separately."
+  "migrationNote": "2026-10-27: Existing pixel assessments are preserved. Packaged equivalents now resolve relative to pets/xiaocheng; historicalReviewedSources retains original generation-run names, whose unbundled temporary files are not repository paths. No new runtime verification is claimed."
 }

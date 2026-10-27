@@ -1,0 +1,193 @@
+{
+  "visual_qa": "pass",
+  "reviewed_spritesheet_sha256": "8c72e39dceca37fbd38ccc8302e5196e75000596c700dcb2f809e7df51d3bdff",
+  "reviewedOn": "2026-10-27",
+  "reviewer": "Codex primary agent; not an independent or blind review",
+  "method": "Ordered final-atlas contact sheet and direction sheet, endpoint/loop-seam comparisons, decoded GIF timing, browser snapshots at native 192x208 on light/dark/checker stages. No continuous client playback or independent direction-classification test is claimed.",
+  "states": [
+    {
+      "state": "idle",
+      "framesReviewed": 6,
+      "durationsMs": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "verdict": "pass",
+      "findings": "Open eyes, blink and return; the neutral cell is identical to idle frame 0."
+    },
+    {
+      "state": "running-right",
+      "framesReviewed": 8,
+      "durationsMs": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "verdict": "pass",
+      "findings": "Right-facing gait, alternating legs, complete trailing hair and tail."
+    },
+    {
+      "state": "running-left",
+      "framesReviewed": 8,
+      "durationsMs": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "verdict": "pass",
+      "findings": "Left-facing gait with gathered and extended legs; crouched passing poses remain smaller rather than enlarged."
+    },
+    {
+      "state": "waving",
+      "framesReviewed": 4,
+      "durationsMs": [
+        180,
+        180,
+        180,
+        180
+      ],
+      "verdict": "pass",
+      "findings": "Resting hand, raised hand, smiling wave and lowered return."
+    },
+    {
+      "state": "jumping",
+      "framesReviewed": 5,
+      "durationsMs": [
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "verdict": "pass",
+      "findings": "Crouch, lift, raised-arm apex, descent and landing; registration preserves a maximum 28 pixel foot lift."
+    },
+    {
+      "state": "failed",
+      "framesReviewed": 8,
+      "durationsMs": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "verdict": "pass",
+      "findings": "Downcast eyes and gathered hands, lowered head, recovery and a small encouraging gesture."
+    },
+    {
+      "state": "waiting",
+      "framesReviewed": 6,
+      "durationsMs": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "verdict": "pass",
+      "findings": "Open palms, expectant tilt and clasped hands convey waiting for input."
+    },
+    {
+      "state": "running",
+      "framesReviewed": 6,
+      "durationsMs": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "verdict": "pass",
+      "findings": "Hand near chin and small head movements express stationary thinking, distinct from movement."
+    },
+    {
+      "state": "review",
+      "framesReviewed": 6,
+      "durationsMs": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "verdict": "pass",
+      "findings": "Hands behind, sideways inspection, lowered head and pleased nod."
+    },
+    {
+      "state": "look-directions",
+      "framesReviewed": 16,
+      "durationsMs": [
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180,
+        180
+      ],
+      "verdict": "pass_with_warnings",
+      "findings": "Up, right, down and left cardinals and clockwise quadrant progression are readable. Nearby directions are subtle, especially 45/67.5, 90/112.5 and 202.5/225 degrees."
+    }
+  ],
+  "backgrounds": [
+    "light",
+    "dark",
+    "checker"
+  ],
+  "characterConsistency": "Blue gradient long hair, blue eyes, fin ears, whale tail, navy/white maid dress, apron and headband remain recognizable across all frames.",
+  "edgeAndAlpha": "No visible clipped tails, hair, hands or shoes in final cells; no conspicuous matte rim on reviewed light/dark/checker previews.",
+  "loopReview": "Compared ordered frame sequences including last-to-first transitions; identity and silhouette remain consistent. Movement rows contain intentional crouch/bob variation.",
+  "warnings": [
+    "Intermediate look directions are approximate visual cues, not metrically exact head rotations; neighboring directions can look similar at native size.",
+    "Browser playback was checked using sampled screenshots and controls, not a recorded continuous cycle of every animation.",
+    "Codex desktop runtime was not directly observed and the user selection was not changed."
+  ],
+  "hard_failures": [],
+  "browserPreviewVerified": true,
+  "runtimeDisplayVerified": false,
+  "previewControlsVerified": [
+    "atlas load",
+    "light stage",
+    "dark stage",
+    "checker stage",
+    "pause/resume",
+    "speed selection"
+  ],
+  "reviewedSources": [
+    "pet/spritesheet.webp",
+    "assets/contact-sheet-extended.png",
+    "assets/look-directions.png",
+    "previews/index.html",
+    "previews/*.gif"
+  ]
+}

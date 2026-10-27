@@ -1,32 +1,12 @@
-# 许可范围与署名说明
+# 许可范围与署名
 
-版权所有 © 2026 fichil。
+版权所有 © 2026 fichil，第三方贡献按各自声明保留。
 
-## MIT License
+- scripts/、工程配置、自动化校验与测试：根目录 [MIT License](LICENSE)。
+- pets/xiaocheng/ 的角色图、动画、宠物包、生成资料及角色文档：[CC BY 4.0](pets/xiaocheng/LICENSE)。署名“小澄·薄荷助手 by fichil”，来源 https://github.com/fichil/codex-pets 。旧版本已授予许可不变。
+- pets/dafeiyu/ 的角色图、动画、宠物包、提示词、生成资料与角色说明：[CC BY-NC-SA 4.0](pets/dafeiyu/LICENSE)，保留 [完整来源及上游许可](pets/dafeiyu/NOTICE.md)。
+- 通用中文文档（根 README、CONTRIBUTING、docs/ 与本说明）：继续采用 [CC BY 4.0](LICENSE-ASSETS)。文档中嵌入的角色美术适用该角色许可。
 
-以下内容适用根目录 `LICENSE` 中的 MIT License：
+角色基准与动作由 OpenAI 内置图像生成工具辅助制作；确定性工具用于抽帧、合成和验证。AI 辅助生成不扩大第三方授权范围。修改与转载应保留对应角色的署名、来源、许可及修改说明。
 
-- `scripts/` 下的 PowerShell 脚本。
-- `.gitignore`、`.gitattributes` 等工程配置。
-
-## CC BY 4.0
-
-以下内容适用 `LICENSE-ASSETS` 中的 Creative Commons Attribution 4.0 International：
-
-- `pet/` 中的宠物清单与图集。
-- `assets/`、`previews/` 中的图片和动画。
-- `source/` 中的基准参考、提示词、配置和 QA 资料。
-- `docs/`、`README.md`、`CONTRIBUTING.md` 与本说明。
-
-推荐署名格式：
-
-```text
-小澄·薄荷助手 by fichil，CC BY 4.0
-https://github.com/fichil/xiaocheng-codex-pet
-```
-
-如修改了素材，请同时标明已修改。CC BY 4.0 的官方法律文本和要求以 `LICENSE-ASSETS` 为准。
-
-## AI 辅助生成说明
-
-角色原画和动作素材由 OpenAI Codex 的图像生成能力辅助制作，并经过人工筛选、身份修复、透明化、抽帧、图集合成和视觉 QA。该说明不改变上述许可，也不表示 OpenAI 对本项目提供赞助、认可或官方支持。
+本项目与 OpenAI、Codex、ChatGPT 或 DeepSeek 无隶属、赞助或背书关系。
